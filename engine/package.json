@@ -1,0 +1,20 @@
+{
+  "name": "qa-platform-engine",
+  "version": "1.0.0",
+  "description": "Playwright test engine with WebSocket live streaming",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":   "nodemon server.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0",
+    "ws":         "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

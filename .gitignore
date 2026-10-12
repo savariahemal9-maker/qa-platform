@@ -1,0 +1,27 @@
+# Dependencies
+engine/node_modules/
+engine/.playwright/
+
+# Environment / secrets
+.env
+*.env
+.env.*
+
+# PHP uploads & storage
+storage/uploads/
+storage/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Cache
+*.cache
